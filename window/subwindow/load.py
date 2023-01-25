@@ -14,7 +14,7 @@ class Load:
         self.check_is_video()
 
     def check_is_video(self):
-        videoKinds = ('mp4', 'm4v', 'mkv', 'webm', 'mov', 'avi', 'wmv', 'mpg', 'flv')
+        videoKinds = ('mp4', 'm4v', 'mkv', 'webm', 'mov', 'avi', 'wmv', 'mpg', 'flv', 'rmvb')
         if self.path == "":
             self.log("ERROR", "未打开文件")
         else:

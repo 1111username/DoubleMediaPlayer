@@ -61,7 +61,7 @@ class BaseWindow:
         self.root.destroy()
 
     def _set_main_window(self):
-        self.root.title("观影小助手")
+        self.root.title("双人播放器")
         self.root.resizable(False, False)
         left = (self.screenWidth - 280) // 2
         top = (self.screenHeight - 440) // 2
